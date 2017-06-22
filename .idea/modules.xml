@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/architecture.iml" filepath="$PROJECT_DIR$/architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cart/cart.iml" filepath="$PROJECT_DIR$/cart/cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-web/common-web.iml" filepath="$PROJECT_DIR$/common-web/common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-web/customer-web.iml" filepath="$PROJECT_DIR$/customer-web/customer-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods/goods.iml" filepath="$PROJECT_DIR$/goods/goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goods-web/goods-web.iml" filepath="$PROJECT_DIR$/goods-web/goods-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orders/orders.iml" filepath="$PROJECT_DIR$/orders/orders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/store/store.iml" filepath="$PROJECT_DIR$/store/store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="eclipseVersion" value="ECLIPSE_44" />
+    <option name="formatOtherFileTypesWithIntelliJ" value="false" />
+    <option name="id" value="1480559754434" />
+    <option name="importOrderConfigFilePath" value="E:/00_Development/conventions/codetemplate/codetemplate.xml" />
+    <option name="importOrderFromFile" value="true" />
+    <option name="importOrdering" value="ECLIPSE_44" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="E:/00_Development/conventions/formatter/formatter.xml" />
+    <option name="selectedJavaProfile" value="Tsingsoft Conventions" />
+    <option name="useOldEclipseJavaFormatter" value="true" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$/customer-web/overlays" />
+    <file type="web" url="file://$PROJECT_DIR$/cart" />
+    <file type="web" url="file://$PROJECT_DIR$/customer" />
+    <file type="web" url="file://$PROJECT_DIR$/customer-web" />
+    <file type="web" url="file://$PROJECT_DIR$/orders" />
+    <file type="web" url="file://$PROJECT_DIR$/store" />
+    <file type="web" url="file://$PROJECT_DIR$/web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/goods-web/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

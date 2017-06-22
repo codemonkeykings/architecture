@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nullpoint.customer.domain.mapper.CustomerMapper" >
+
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
+
+    <select id="findAll" resultType="com.nullpoint.customer.domain.bean.Customer">
+        SELECT
+          t.id,
+          t.identify,
+          t.password,
+          t.show_name,
+          t.real_name,
+          t.register_time
+        FROM tbl_customer t
+    </select>
+
+    <select id="findByPage" resultType="com.nullpoint.customer.domain.bean.Customer">
+        SELECT
+          t.id,
+          t.identify,
+          t.password,
+          t.show_name,
+          t.real_name,
+          t.register_time
+        FROM tbl_customer t
+    </select>
+
+    <insert id="save" parameterType="com.nullpoint.customer.domain.bean.Customer">
+        INSERT INTO tbl_customer (
+	      identify,
+	      `password`,
+	      show_name,
+	      real_name,
+	      register_time
+        )
+        VALUE (
+          #{identify},#{password},#{showName},#{realName},#{registerTime}
+        )
+    </insert>
+</mapper>

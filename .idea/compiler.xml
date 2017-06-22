@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cart" />
+        <module name="common" />
+        <module name="common-web" />
+        <module name="customer" />
+        <module name="customer-web" />
+        <module name="goods" />
+        <module name="goods-web" />
+        <module name="orders" />
+        <module name="store" />
+        <module name="web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="architecture" target="1.5" />
+      <module name="cart" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="common-web" target="1.5" />
+      <module name="customer" target="1.5" />
+      <module name="customer-web" target="1.5" />
+      <module name="goods" target="1.5" />
+      <module name="goods-web" target="1.5" />
+      <module name="orders" target="1.5" />
+      <module name="store" target="1.5" />
+      <module name="web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
